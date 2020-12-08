@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		EE546D1B257FEDF300F4493C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE546D1A257FEDF300F4493C /* Assets.xcassets */; };
 		EE546D1E257FEDF300F4493C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE546D1D257FEDF300F4493C /* Preview Assets.xcassets */; };
 		EE546D21257FEDF300F4493C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE546D1F257FEDF300F4493C /* LaunchScreen.storyboard */; };
+		EE6686CA257FF6F3008085B6 /* 26940-boost-xmas-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = EE6686C9257FF6F3008085B6 /* 26940-boost-xmas-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EE546D1D257FEDF300F4493C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE546D20257FEDF300F4493C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE546D22257FEDF300F4493C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6686C9257FF6F3008085B6 /* 26940-boost-xmas-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "26940-boost-xmas-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				0C3FCA061BEDC4947DF2C490 /* Pods-ChristmasApp.debug.xcconfig */,
 				080B6E7E5AF4EC7F2F2F3273 /* Pods-ChristmasApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,7 @@
 		EE546D13257FEDEF00F4493C /* ChristmasApp */ = {
 			isa = PBXGroup;
 			children = (
+				EE6686C9257FF6F3008085B6 /* 26940-boost-xmas-animation.json */,
 				EE546D14257FEDEF00F4493C /* AppDelegate.swift */,
 				EE546D16257FEDEF00F4493C /* SceneDelegate.swift */,
 				EE546D18257FEDEF00F4493C /* ContentView.swift */,
@@ -162,6 +164,7 @@
 				EE546D21257FEDF300F4493C /* LaunchScreen.storyboard in Resources */,
 				EE546D1E257FEDF300F4493C /* Preview Assets.xcassets in Resources */,
 				EE546D1B257FEDF300F4493C /* Assets.xcassets in Resources */,
+				EE6686CA257FF6F3008085B6 /* 26940-boost-xmas-animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
