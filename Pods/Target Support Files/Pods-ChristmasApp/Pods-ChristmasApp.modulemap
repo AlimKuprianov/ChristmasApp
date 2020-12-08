@@ -1,0 +1,6 @@
+framework module Pods_ChristmasApp {
+  umbrella header "Pods-ChristmasApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
