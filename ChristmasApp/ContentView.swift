@@ -11,8 +11,7 @@ import Lottie
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ChristmasScreen()
     }
 }
 
@@ -27,7 +26,7 @@ struct ChristmasScreen: View {
     
     var body: some View {
         VStack {
-            
+            AnimatedView()
         }
     }
     
@@ -38,10 +37,10 @@ struct AnimatedView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> AnimationView {
         
-        let view = AnimationView(name: "26940-boost-xmas-animation", bundle: <#T##Bundle#>, imageProvider: <#T##AnimationImageProvider?#>, animationCache: <#T##AnimationCacheProvider?#>)
+        let view = AnimationView(name: "26940-boost-xmas-animation", bundle: Bundle.main)
+        view.play()
         
-        
-        return
+        return view
     }
     
     func updateUIView(_ uiView: AnimationView, context: Context) {
